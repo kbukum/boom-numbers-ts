@@ -16,8 +16,9 @@ let boomProps = {
 
 let boom = new Boom(boomProps);
 
+console.log("use `quit` to exit from program");
 function  BoomStarter(){
-    rl.question("Join a number please ? ", (answer) => {
+    rl.question("Enter Boom Number : ", (answer) => {
         if(answer === "quit") {
             console.log("Bye bye !");
             rl.close();
